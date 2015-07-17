@@ -4,6 +4,9 @@ gem 'rest_baby'
 
 group :develop do
   gem 'rubocop'
+  gem 'geminabox'
+  gem 'yard'
+  gem 'yard-cucumber'
 end
 
 group :test do
