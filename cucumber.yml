@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty --expand --tags ~@wip --tags ~@slow --format rerun --out='rerun.txt'
+rerun: --color --expand rerun.txt --format pretty
+debug: DEBUG_HTTP=true --expand --tags ~@wip
+wip: --tags @wip --color --format pretty
+autotest: --no-source --color --format pretty --tags ~@wip
